@@ -1,0 +1,48 @@
+.jumbotron .container{
+	text-align: center;
+}
+.jumbotron {
+	background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');
+	/*background-image: url('file:///C:/Users/Brandon/Pictures/Awechords/DSC_9021.jpg');*/
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: cover;
+}
+.jumbotron .container h1{
+	font-size:  130px;
+}
+
+.jumbotron .container .links .row ul{
+	display: inline-block;
+	padding-top: 100px;
+}
+.jumbotron .container .links li{
+	font-size: 30px;
+	border-radius: 25px;
+	border: solid;
+	border-width: 2px;
+	background-color: transparent;
+}
+.jumbotron a{
+	color: white;
+
+}
+.jumbotron .blue .active a:hover{
+	background-color: blue;
+}
+
+html{
+	background-color: #D1FFFF;
+}
+
+.whitespace{
+	height: 300px;
+}
+.copyright {
+	text-align: right;
+	font-size: 5px;
+	padding-right: 50px;
+	background-color: #E0E0D1;
+	height: 50px;
+	padding-top: 20px;
+}
