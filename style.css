@@ -35,6 +35,18 @@ html{
 	background-color: #D1FFFF;
 }
 
+.about .container .row h3{
+	height: 30px;
+}
+
+.about .container .row .col-md-4 .bound{
+	height: 200px;
+	background: no-repeat;
+	background-image: url('file:///C:/Users/Brandon/Pictures/EcoWatch/leafeye6.png');
+	background-size: contain;
+	width: auto;
+}
+
 .whitespace{
 	height: 300px;
 }
