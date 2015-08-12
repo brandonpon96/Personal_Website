@@ -2,47 +2,66 @@
 	text-align: center;
 }
 .jumbotron {
-	background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');
-	/*background-image: url('file:///C:/Users/Brandon/Pictures/Awechords/DSC_9021.jpg');*/
+	/*background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
+	background-image: url(images/cover.jpg);
 	background-repeat: no-repeat;
 	height: 500px;
 	background-size: cover;
 }
 .jumbotron .container h1{
 	font-size:  130px;
+	color: white;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.jumbotron .container h2{
+	color: white;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
 
 .jumbotron .container .links .row ul{
 	display: inline-block;
-	padding-top: 100px;
+	padding-top: 70px;
 }
 .jumbotron .container .links li{
 	font-size: 30px;
+	color: gray;
 	border-radius: 25px;
 	border: solid;
 	border-width: 2px;
 	background-color: transparent;
 }
-.jumbotron a{
-	color: white;
 
+.jumbotron .container .links li a{
+	color: white;
 }
+
 .jumbotron .blue .active a:hover{
 	background-color: blue;
 }
 
-html{
+.Tabs .Content_Area {
 	background-color: #D1FFFF;
+}
+
+.Tabs {
+	/*background-color: blue;*/
+	/*background-image: url('file:///C:/Users/Brandon/Pictures/BruinBubbleIcon.png');*/
+}
+
+.about .container .row{
+	background-color: #ebebeb;
 }
 
 .about .container .row h3{
 	height: 30px;
+	background-color: transparent;
 }
 
 .about .container .row [class*=col] .eco{
 	height: 200px;
 	background: no-repeat;
-	background-image: url('file:///C:/Users/Brandon/Pictures/EcoWatch/leafeye6.png');
+	background-image: url(images/leafeye6.png);
 	background-size: contain;
 	width: auto;
 }
@@ -50,7 +69,7 @@ html{
 .about .container .row [class*=col] .snap{
 	height: 200px;
 	background: no-repeat;
-	background-image: url('file:///C:/Users/Brandon/Pictures/SnapRoulette.png');
+	background-image: url(images/SnapRoulette.png);
 	background-size: contain;
 	width: auto;
 }
@@ -58,9 +77,18 @@ html{
 .about .container .row [class*=col] .kinematix{
 	height: 200px;
 	background: no-repeat;
-	background-image: url('file:///C:/Users/Brandon/Pictures/kinematix.png');
+	background-image: url(images/kinematix.png);
 	background-size: contain;
 	width: auto;
+}
+
+.resume{
+	text-align: center;
+	background-color: white;
+}
+
+.about .container .spacebetweenabout{
+	height: 70px;
 }
 
 .whitespace{
