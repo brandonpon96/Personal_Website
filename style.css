@@ -3,10 +3,11 @@
 }
 .jumbotron {
 	/*background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
-	background-image: url(images/cover.jpg);
+	background: url(images/cover.jpg) no-repeat center center fixed;
 	background-repeat: no-repeat;
 	height: 500px;
 	background-size: cover;
+	box-shadow: 
 }
 .jumbotron .container h1{
 	font-size:  130px;
@@ -48,6 +49,28 @@
 	color: white;
 	margin-left: 50px;
 	opacity: 0.7;
+}
+#infobox h2{
+
+	margin-left: 5px;
+	font-weight: 50;
+	font-size: 48px;
+	height: 40px;
+}
+#infobox h3{
+	margin-left: 8px;
+	font-size: 20px;
+	height: 20px;
+}
+#infobox h4{
+	margin-left: 8px;
+	font-size: 15px;
+}
+#infobox li .fa{
+	font-size: 40px;
+}
+#infobox .space{
+	height: 200px;
 }
 .Tabs .Content_Area {
 	background-color: #D1FFFF;
