@@ -40,6 +40,15 @@
 	background-color: blue;
 }
 
+#infobox{
+	text-align: left;
+	width:300px;
+	height: 400px;
+	background: black;
+	color: white;
+	margin-left: 50px;
+	opacity: 0.7;
+}
 .Tabs .Content_Area {
 	background-color: #D1FFFF;
 }

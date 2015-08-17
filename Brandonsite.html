@@ -17,6 +17,20 @@
 		}
 		</script>
 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.js"type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(window).scroll(function () {
+		    $('[id^="infobox"]').each(function () {
+		        if (($(this).offset().top - $(window).scrollTop()) < 30) {
+		            $(this).stop().fadeTo(100, (($(this).offset().top - $(window).scrollTop())+250 )/400);
+		        } else {
+		            $(this).stop().fadeTo('fast', 0.70);
+		        }
+			    });
+			});
+		</script>
+
 	</head>
 
 	<body>
@@ -30,7 +44,12 @@
 
 		<div class="jumbotron">
 			<div class="container">
-				<h1>Brandon Pon</h1>
+				<div id="infobox">
+					<h2>Brandon Pon</h2>
+					<h3>Computer Science</h3>
+					<h3>UCLA</h3>
+				</div>
+				<!--<h1>Brandon Pon</h1>
 				<h2>Android &nbsp iOS &nbsp C++ &nbsp Python &nbsp HTML</h2>
 				<div class="links">
 					<div class="row">
@@ -52,7 +71,7 @@
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 
