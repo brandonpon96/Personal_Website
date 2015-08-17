@@ -2,11 +2,13 @@
 	text-align: center;
 }
 .jumbotron {
-	/*background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
-	background-image: url(images/cover.jpg);
+	background-color: #5E5E5E;
+	background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');
+	background-image: url(images/cover.jpg);*/
 	background-repeat: no-repeat;
 	height: 500px;
 	background-size: cover;
+	margin-bottom: 0px;
 }
 .jumbotron .container h1{
 	font-size:  130px;
@@ -40,19 +42,19 @@
 	background-color: blue;
 }
 
-.Tabs .Content_Area {
-	background-color: #D1FFFF;
-}
+
 
 .Tabs {
-	/*background-color: blue;*/
-	/*background-image: url('file:///C:/Users/Brandon/Pictures/BruinBubbleIcon.png');*/
+	background-color: #A6A6A6;
 }
+
+/*.about .container .row{
+	background-color: #ebebeb;
+}*/
 
 .about .container .row{
-	background-color: #ebebeb;
+	background-color: #EDEDED;
 }
-
 .about .container .row h3{
 	height: 30px;
 	background-color: transparent;
@@ -82,13 +84,42 @@
 	width: auto;
 }
 
+.about .container .row [class*=col] .kinematixicon{
+	height: 200px;
+	background: no-repeat;
+
+	background-image: url(images/kinematixicon.png);
+	background-size: contain;
+	width: auto;
+}
+
 .resume{
+	background-color: #EDEDED;
+	width: auto;
+}
+.resume h2{
 	text-align: center;
 	background-color: white;
 }
 
+.resume .title{
+	text-align: center;
+}
+
+#resumeinfo{
+	padding-left: 200px;
+}
+#school{
+	padding-left: 50px;
+}
+#courses{
+	padding-left: 100px;
+	padding-right: 180px;
+}
+
 .about .container .spacebetweenabout{
 	height: 70px;
+	background-color: #EDEDED;
 }
 
 .whitespace{
