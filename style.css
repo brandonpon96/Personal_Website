@@ -1,8 +1,14 @@
+#menu{
+	background: red;
+	opacity: 1;
+	border-bottom: 1px;
+}
 .jumbotron .container{
 	text-align: center;
 }
 .jumbotron {
-	/*background-image: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
+	margin-top: 42px;
+	/*background: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
 	background: url(images/cover.jpg) no-repeat center center fixed;
 	background-repeat: no-repeat;
 	height: 500px;
@@ -44,7 +50,7 @@
 #infobox{
 	text-align: left;
 	width:300px;
-	height: 400px;
+	height: 350px;
 	background: black;
 	color: white;
 	margin-left: 50px;
@@ -67,17 +73,20 @@
 	font-size: 15px;
 }
 #infobox li .fa{
+	padding: 0px;
 	font-size: 40px;
 }
 #infobox .space{
-	height: 200px;
+	height: 150px;
 }
+
+/*is this even neccessary*/
 .Tabs .Content_Area {
-	background-color: #D1FFFF;
+	background-color: blue; #D1FFFF;
 }
 
 .Tabs {
-	background-color: #A6A6A6;
+	background: linear-gradient(#A6A6A6,white);
 }
 
 /*.about .container .row{
@@ -85,6 +94,8 @@
 }*/
 
 .about .container .row{
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #EDEDED;
 }
 .about .container .row h3{
