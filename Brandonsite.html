@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
 
 		<link rel="stylesheet" href = "style.css">
 
@@ -16,6 +16,7 @@
 			document.getElementById('li_tab2').setAttribute("class","");
 			document.getElementById(tab).style.display = 'block';
 			document.getElementById('li_'+tab).setAttribute("class", "active");
+			document.getElementById('li_'+tab).scrollTop(0);
 		}
 		</script>
 
@@ -45,7 +46,7 @@
 					var lastScrollTop = 0;
 					$(window).scroll(function(event){
 					   var st = $(this).scrollTop();//positive when scroll down, negative up
-					   if (st > lastScrollTop+15){
+					   if (st > lastScrollTop+15 && $(window).scrollTop() > 0){
 					   		//downscroll
 					       $('#menu').fadeOut();
 					   } else if(st < lastScrollTop - 5){
@@ -77,7 +78,7 @@
 		<!--add scrolling/retaining menu-->
 
 		<div id="menu">
-			<nav class = "nav navbar-fixed-top">	
+			<nav class = "nav navbar-fixed-top" style='background: #D6EBFF'>	
 				<ul class="nav nav-tabs pull-left">
 					<li id="li_tab1" onclick="tab('tab1')"><a href="#home">Brandon</a></li>
 					<li id="li_tab2" onclick="tab('tab2')"><a href="#resume">Resume</a></li>
@@ -247,9 +248,9 @@
 
 				<div id="tab2" style="display: none;" class="resume">
 					<h1> </h1>
-					<div class="title">
-						<h2>brandonpon96@gmail.com</h2><br>
-						<h2>(408) 658-3244</h2>
+					<div id="title">
+						<h2>brandonpon96@gmail.com</h2>
+						<h3>(408) 658-3244</h3>
 					</div>
 
 					<div class="otherinfo">
@@ -291,22 +292,40 @@
 							<h2>Experience:</h2>
 							<br>
 							<span>
-								<div id="school">(7/6/2015 - 7/31/2015) iD Tech instructor</div>
+								<div id="date">
+									<span>(7/6/2015 - 7/31/2015)</span>
+								 	iD Tech instructor
+								 </div>
 								<div id="courses">Teaching miscellaneous programming including C++ and Java to students during week long summer coding camps at Stanford.</div>
 								<br>
-								<div id="school">(1/30/2015 - 2/1/2015) UCSB Hackathon EcoWatch</div>
+								<div id="date">
+									<span>(1/30/2015 - 2/1/2015)</span> 
+									UCSB Hackathon EcoWatch
+								</div>
 								<div id="courses">Android app integrating Google maps and location APIs and Parse cloud server to create a visual map of locations of environmental concern through individual user input of photos.</div>
 								<br>
-								<div id="school">(11/7/2014 - 11/9/2014) HackSC SnapRoulette</div>
+								<div id="date">
+									<span>(11/7/2014 - 11/9/2014)</span>
+									 HackSC SnapRoulette
+								</div>
 								<div id="courses">An iOS-Android cross platform application making use of Parse where users can send and receive photos anonymously.</div>
 								<br>
-								<div id="school">(10/19/2014 - 1/25/2015) Bruin Mobile Internship</div>
+								<div id="date">
+									<span>(10/19/2014 - 1/25/2015)</span>
+									 Bruin Mobile Internship
+								</div>
 								<div id="courses">Program to create an iOS app using the LocalResearch platform focused on improving the lives of UCLA students living on the Hill.</div>
 								<br>
-								<div id="school">(6/30/2014 - 8/06/2014) Android Programming Course</div>
+								<div id="date">
+									<span>(6/30/2014 - 8/06/2014)</span>
+									 Android Programming Course
+								</div>
 								<div id="courses">Created a physics app using Eclipse that simulates kinematics for projectiles and free falling objects.</div>
 								<br>
-								<div id="school">(6/20/2013 - 7/20/2013) Mobile Digital Media at UC Irvine</div>
+								<div id="date">
+									<span>(6/20/2013 - 7/20/2013)</span>
+									 Mobile Digital Media at UC Irvine
+								</div>
 								<div id="courses">Explored digital signal processing and XCode Objective-C based iOS programming.  Created a virtual guitar iOS application using XCode which plays self-designed simulated guitar sounds (created using PureData) when “strumming” the iPhone or iPad screen.</div>
 
 
