@@ -150,6 +150,7 @@ body{
 }
 
 .about .container .row [class*=col] .eco{
+	margin-top: 50px;
 	height: 200px;
 	background: no-repeat;
 	background-image: url(images/leafeye6.png);
