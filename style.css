@@ -1,8 +1,13 @@
 
+/*#li_tab1{
+	font-size: 20px;
+}*/
 
 body{
 	font-family: 'Raleway';
-	background: linear-gradient(63deg, #663524, #b7d8c3);
+	background: linear-gradient(45deg, #663524, #b7d8c3);
+}
+	/*Too resource intensive
 	background-size: 400% 400%;
 
 	-webkit-animation: AnimationName 15s ease infinite;
@@ -24,7 +29,7 @@ body{
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+}*/
 
 .jumbotron .container{
 	text-align: center;
@@ -102,18 +107,27 @@ body{
 #infobox .space{
 	height: 150px;
 }
-
+#tab1 .about{
+	margin-right: 135px;
+	margin-left: 135px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	background-color: white;
+	opacity: .9;
+}
 .about .container .row{
-	margin-right: 90px;
-	margin-left: 90px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: #EDEDED;
-	opacity: 0.8;
+	margin-right: 195px;
 }
 .about .container .row h3{
+	color: #9D9D9D;
 	height: 30px;
 	background-color: transparent;
+}
+
+.about .container .row p{
+	font-size: 18px;
 }
 
 .about .container .row [class*=col] .eco{
@@ -121,7 +135,7 @@ body{
 	background: no-repeat;
 	background-image: url(images/leafeye6.png);
 	background-size: contain;
-	width: auto;
+	/*width: auto;*/
 }
 
 .about .container .row [class*=col] .snap{
@@ -150,29 +164,33 @@ body{
 }
 
 #tab2{
+	padding-top: 20px;
+	padding-bottom: 100px;
 	margin-left: 135px;
 	margin-right: 135px;
-	background-color: #EDEDED;*/
+	background-color: white; /*#EDEDED;*/
 	width: auto;
+	opacity: .9;
 }
 .resume h2{
 	text-align: center;
-	background-color: white;
+	/*background-color: white;*/
 }
 
 #title{
+	font-family: Arial;
+	font-weight: 100;
 	text-align: center;
 }
 
 #resumeinfo{
-	font-family: 'Raleway';
 	font-weight: 100;
 	padding-left: 20px;
 }
 
 #resumeinfo h2{
 	color: #9D9D9D;
-	background-color: #EDEDED;
+	background-color: white; /*#EDEDED;*/
 	text-align: left;
 	font-size: 22px;
 }
@@ -182,6 +200,7 @@ body{
 
 #date{
 	font-size: 16px;
+	height: 25px;
 }
 #date span{
 	padding-left: 50px;
@@ -196,7 +215,7 @@ body{
 
 .about .container .spacebetweenabout{
 	height: 70px;
-	background-color: #EDEDED;
+	/*background-color: white; /*#EDEDED;*/
 }
 
 .whitespace{
