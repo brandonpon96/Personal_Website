@@ -43,7 +43,7 @@ body{
 	background-size: cover;
 	box-shadow: 
 }
-.jumbotron .container h1{
+/*.jumbotron .container h1{
 	font-size:  130px;
 	color: white;
 	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
@@ -68,14 +68,15 @@ body{
 }
 
 .jumbotron .container .links li a{
-	color: white;
+	color: red;
 }
 
 .jumbotron .blue .active a:hover{
 	background-color: blue;
-}
+}*/
 
 #infobox{
+	position: relative;
 	text-align: left;
 	width:300px;
 	height: 350px;
@@ -86,6 +87,7 @@ body{
 }
 #infobox h2{
 
+	margin-top: 15px;
 	margin-left: 5px;
 	font-weight: 50;
 	font-size: 48px;
@@ -104,21 +106,38 @@ body{
 	padding: 0px;
 	font-size: 40px;
 }
-#infobox .space{
+/*#infobox .space{
 	height: 150px;
+}*/
+#infocontent h3{
+	font-size: 19px;
+	padding-left: 50px;
+	height: 10px;
 }
-#tab1 .about{
-	margin-right: 135px;
+#infobox ul{
+	position: absolute;
+	bottom: 0px;
+	/*padding-bottom: 6px;*/
+}
+
+#tab1 .about .container{
+	
 	margin-left: 135px;
+	margin-right: 135px;
 	padding-top: 30px;
 	padding-bottom: 100px;
 	background-color: white;
 	opacity: .9;
+	width: auto;
+}
+#aboutme{
+	color: #6C6C6C;
+	font-size: 20px;
+	width: inherit;
 }
 .about .container .row{
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-right: 195px;
 }
 .about .container .row h3{
 	color: #9D9D9D;
@@ -135,7 +154,7 @@ body{
 	background: no-repeat;
 	background-image: url(images/leafeye6.png);
 	background-size: contain;
-	/*width: auto;*/
+	width: auto;
 }
 
 .about .container .row [class*=col] .snap{
@@ -211,6 +230,10 @@ body{
 	color: #6B6B6B;
 	padding-left: 100px;
 	padding-right: 180px;
+}
+#language{
+	padding-left: 50px;
+	color: 	#6B6B6B;
 }
 
 .about .container .spacebetweenabout{
