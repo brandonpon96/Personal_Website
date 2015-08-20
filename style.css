@@ -1,7 +1,8 @@
 
-/*#li_tab1{
-	font-size: 20px;
-}*/
+#menu{
+	position: fixed;
+	z-index: 9000;
+}
 
 body{
 	font-family: 'Raleway';
@@ -76,6 +77,7 @@ body{
 }*/
 
 #infobox{
+	margin-top: 25px;
 	position: relative;
 	text-align: left;
 	width:300px;
@@ -87,7 +89,7 @@ body{
 }
 #infobox h2{
 
-	margin-top: 15px;
+	padding-top: 7px;
 	margin-left: 5px;
 	font-weight: 50;
 	font-size: 48px;
@@ -102,22 +104,47 @@ body{
 	margin-left: 8px;
 	font-size: 15px;
 }
-#infobox li .fa{
+#infobox li i{
 	padding: 0px;
 	font-size: 40px;
 }
-/*#infobox .space{
-	height: 150px;
-}*/
 #infocontent h3{
 	font-size: 19px;
 	padding-left: 50px;
 	height: 10px;
 }
+#infocontent .fa-apple{
+	padding-top: 3px;
+	text-align: center;
+	background-color: #504e54;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
+#infocontent .fa-android{
+	padding-top: 3px;
+	text-align: center;
+	background-color: #A5C63B;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
 #infobox ul{
 	position: absolute;
 	bottom: 0px;
 	/*padding-bottom: 6px;*/
+}
+/*
+#infobox ul .fa-github-square{
+	background-color: #000;
+}
+#infobox ul .fa-linkedin-square{
+	background-color: #0085AE;
+	display: table;
+}*/
+#subbox{
+	margin-top: 45px;
+	text-align: center;
 }
 
 #tab1 .about .container{

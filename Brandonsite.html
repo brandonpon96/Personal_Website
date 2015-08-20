@@ -32,10 +32,11 @@
 					<h3>Computer Science</h3>
 					<h4>UCLA</h4>
 					<div id='infocontent'>
-						<h3>- iOS</h3>
-						<h3>- Android</h3>
+						<h3>- iOS <i class="fa fa-apple"></i></h3>
+						<h3>- Android <i class="fa fa-android"></i></h3>
 						<h3>- C++</h3>
 					</div>
+					<div id="subbox"><h4>undergraduate software developer</h4></div>
 					<div class= "space"><h1> </h1></div>
 
 					<ul class="nav navbar-nav nav-pills">
@@ -299,6 +300,7 @@
 		</div>
 
 
+
 		<div class="whitespace"></div>
 
 		<div class="copyright">
@@ -348,22 +350,13 @@
 					   var st = $(this).scrollTop();//positive when scroll down, negative up
 					   if (st > lastScrollTop+15 && $(window).scrollTop() > 0){
 					   		//downscroll
-					       $('#menu').fadeOut();
+					       $('#menu').stop().fadeOut();
 					   } else if(st < lastScrollTop - 5){
 					   		//upscroll
 					      $('#menu').fadeIn();
 					   }
 					   lastScrollTop = st;
 					});
-					/*$(window).scroll(function () {
-			            // set distance user needs to scroll before we fadeIn navbar
-						if ($(this).scrollTop() > 100) {
-							$('#menu').fadeIn();
-						} else {
-							$('#menu').fadeOut();
-						}
-					});*/
-
 				
 				});
 
